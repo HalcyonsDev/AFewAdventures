@@ -1,0 +1,40 @@
+{
+  "item.adventuresmod.green_refracting_crystal": "Green Refracting Crystal",
+  "item.adventuresmod.sea_amulet": "Sea Amulet",
+  "item.adventuresmod.blood_scroll": "Blood Scroll",
+  "item.adventuresmod.aquarium_ring": "Aquarium Ring",
+
+  "item.adventuresmod.ancient_key": "Ancient Key",
+  "item.adventuresmod.ancient_rune": "Ancient Rune",
+
+  "item.adventuresmod.astral_stone": "Astral Stone",
+  "item.adventuresmod.astral_cluster": "Astral Cluster",
+
+  "item.adventuresmod.flask_of_blaze_powder": "Flask of Blaze Powder",
+
+  "item.adventuresmod.shard_of_mica": "Shard of Mica",
+
+  "item.adventuresmod.rejuvenating_fruit": "Rejuvenating Fruit",
+
+  "item.adventuresmod.eve": "Eve",
+  "item.adventuresmod.dark_blade": "Dark Blade",
+  "item.adventuresmod.frostmourne": "Frostmourne",
+
+  "item.adventuresmod.knife": "Knife",
+  "item.adventuresmod.sunrise": "Sunrise",
+
+  "block.adventuresmod.ancient_temple_bricks": "Ancient Temple Bricks",
+  "block.adventuresmod.ancient_temple_stone": "Ancient Temple Stone",
+  "block.adventuresmod.ancient_temple_keyhole": "Ancient Temple Keyhole",
+
+  "block.adventuresmod.crystal_lamp": "Crystal Lamp",
+
+  "block.adventuresmod.mica_block": "Mica Block",
+  "block.adventuresmod.mica": "Mica",
+
+  "effect.adventuresmod.stun": "Stun",
+
+  "creativemodetab.adventures_items_tab": "Few Adventures Items Tab",
+  "creativemodetab.adventures_swords_tab": "Few Adventures Swords Tab",
+  "creativemodetab.adventures_blocks_tab": "Few Adventures Blocks Tab"
+}

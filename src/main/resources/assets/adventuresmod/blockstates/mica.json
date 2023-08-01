@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "adventuresmod:block/mica",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "adventuresmod:block/mica",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "adventuresmod:block/mica",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "adventuresmod:block/mica",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "adventuresmod:block/mica"
+    },
+    "facing=west": {
+      "model": "adventuresmod:block/mica",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

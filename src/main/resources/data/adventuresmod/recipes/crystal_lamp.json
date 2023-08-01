@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "adventuresmod:astral_stone"
+    },
+    "X": {
+      "item": "adventuresmod:astral_cluster"
+    },
+    "Y": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "#Y#",
+    "YXY",
+    "#Y#"
+  ],
+  "result": {
+    "item": "adventuresmod:crystal_lamp"
+  }
+}

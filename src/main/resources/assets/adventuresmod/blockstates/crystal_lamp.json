@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "level=empty": {
+      "model": "adventuresmod:block/empty_crystal_lamp"
+    },
+    "level=redstone": {
+      "model": "adventuresmod:block/redstone_crystal_lamp"
+    },
+    "level=glowstone": {
+      "model": "adventuresmod:block/glowstone_crystal_lamp"
+    },
+    "level=diamond": {
+      "model": "adventuresmod:block/diamond_crystal_lamp"
+    },
+    "level=lapis_lazuli": {
+      "model": "adventuresmod:block/lapis_lazuli_crystal_lamp"
+    },
+    "level=emerald": {
+      "model": "adventuresmod:block/emerald_crystal_lamp"
+    }
+  }
+}
