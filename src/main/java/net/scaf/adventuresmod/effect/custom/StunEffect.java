@@ -1,11 +1,11 @@
-package net.scaf.adventuresmod.effect;
+package net.scaf.adventuresmod.effect.custom;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
 
 public class StunEffect extends MobEffect {
-    protected StunEffect(MobEffectCategory p_19451_, int p_19452_) {
+    public StunEffect(MobEffectCategory p_19451_, int p_19452_) {
         super(p_19451_, p_19452_);
     }
 

@@ -1,0 +1,9 @@
+{
+  "item.gun.shoot": {
+    "category": "players",
+    "subtitle": "subtitles.adventuresmod.item.gun.shoot",
+    "sounds": [
+      "adventuresmod:gun1"
+    ]
+  }
+}

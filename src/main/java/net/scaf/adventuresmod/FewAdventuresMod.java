@@ -1,6 +1,7 @@
 package net.scaf.adventuresmod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -13,8 +14,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.scaf.adventuresmod.block.ModBlocks;
 import net.scaf.adventuresmod.effect.ModEffects;
+import net.scaf.adventuresmod.entity.ModEntities;
 import net.scaf.adventuresmod.item.ModCreativeModeTabs;
 import net.scaf.adventuresmod.item.ModItems;
+import net.scaf.adventuresmod.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -31,8 +34,9 @@ public class FewAdventuresMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
         ModEffects.register(modEventBus);
+        ModSounds.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -88,6 +92,13 @@ public class FewAdventuresMod {
             event.accept(ModItems.SUNRISE);
         }
 
+        if (event.getTab() == ModCreativeModeTabs.ADVENTURES_WEAPONS_TAB) {
+            event.accept(ModItems.SIMPLE_BULLET);
+            event.accept(ModItems.RIFLE);
+            event.accept(ModItems.UGLINESS);
+            event.accept(ModItems.BEAUTY);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -105,5 +116,9 @@ public class FewAdventuresMod {
         public static void onClientSetup(FMLClientSetupEvent event) {
 
         }
+    }
+
+    public static ResourceLocation resourceLocation(String name) {
+        return new ResourceLocation(MOD_ID, name);
     }
 }

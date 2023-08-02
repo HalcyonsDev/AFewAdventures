@@ -9,7 +9,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.scaf.adventuresmod.FewAdventuresMod;
 import net.scaf.adventuresmod.food.ModFoods;
+import net.scaf.adventuresmod.item.custom.BulletItem;
 import net.scaf.adventuresmod.item.custom.DarkBladeItem;
+import net.scaf.adventuresmod.item.custom.GunItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -62,6 +64,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> REJUVENATING_FRUIT = ITEMS.register("rejuvenating_fruit",
             () -> new Item(new Item.Properties().food(ModFoods.REJUVENATING_FRUIT)));
+
+    public static final RegistryObject<Item> SIMPLE_BULLET = ITEMS.register("simple_bullet",
+            () -> new BulletItem(new Item.Properties(), 5));
+
+    public static final RegistryObject<Item> RIFLE = ITEMS.register("rifle",
+            () -> new GunItem(new Item.Properties().durability(513), 0, 1, 16, 1.5));
+
+    public static final RegistryObject<Item> UGLINESS = ITEMS.register("ugliness",
+            () -> new GunItem(new Item.Properties().durability(513), 0, 1, 16, 1.5));
+
+    public static final RegistryObject<Item> BEAUTY = ITEMS.register("beauty",
+            () -> new GunItem(new Item.Properties().durability(513), 0, 1, 16, 1.5));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

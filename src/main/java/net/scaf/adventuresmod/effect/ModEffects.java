@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.scaf.adventuresmod.FewAdventuresMod;
+import net.scaf.adventuresmod.effect.custom.StunEffect;
 
 public class ModEffects {
     public static final DeferredRegister<MobEffect> MOB_EFFECTS =
