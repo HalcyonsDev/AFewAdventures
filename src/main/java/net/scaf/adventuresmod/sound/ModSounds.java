@@ -12,6 +12,9 @@ public class ModSounds {
     public static RegistryObject<SoundEvent> gun = SOUNDS.register("item.gun.shoot",
             () -> SoundEvent.createVariableRangeEvent(FewAdventuresMod.resourceLocation("item.gun.shoot")));
 
+    public static RegistryObject<SoundEvent> shotgun = SOUNDS.register("item.shotgun.shoot",
+            () -> SoundEvent.createVariableRangeEvent(FewAdventuresMod.resourceLocation("item.shotgun.shoot")));
+
     public static void register(IEventBus eventBus) {
         SOUNDS.register(eventBus);
     }

@@ -16,7 +16,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import net.scaf.adventuresmod.entity.custom.BulletEntity;
+import net.scaf.adventuresmod.entity.projectile.BulletEntity;
 import net.scaf.adventuresmod.item.ModItems;
 import net.scaf.adventuresmod.sound.ModSounds;
 
@@ -50,7 +50,6 @@ public class GunItem extends ProjectileWeaponItem {
     public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
         ItemStack gun = player.getItemInHand(hand);
         ItemStack ammo = player.getProjectile(gun);
-
 
         if (!ammo.isEmpty()) {
             if (ammo.isEmpty()) ammo = new ItemStack(ModItems.SIMPLE_BULLET.get());
@@ -95,11 +94,17 @@ public class GunItem extends ProjectileWeaponItem {
             double inaccuracy = getInaccuracy(itemStack, null);
             if (inaccuracy <= 0) tooltip.add(Component.translatable("tooltip.adventuresmod.gun.accuracy.perfect"));
             else tooltip.add(Component.translatable("tooltip.adventuresmod.gun.accuracy", ItemStack.ATTRIBUTE_MODIFIER_FORMAT.format(1.0 / inaccuracy)));
+
+            addExtraStatsTooltip(itemStack, world, tooltip);
         } else {
             tooltip.add(Component.translatable("tooltip.adventuresmod.shift"));
         }
     }
 
+    /**
+     * Add more tooltips that will be displayed below the base stats.
+     */
+    protected void addExtraStatsTooltip(ItemStack itemStack, @Nullable Level world, List<Component> tooltip) {}
 
     @Override
     public UseAnim getUseAnimation(ItemStack p_41452_) {
@@ -141,5 +146,21 @@ public class GunItem extends ProjectileWeaponItem {
     @Override
     public int getDefaultProjectileRange() {
         return 0;
+    }
+
+    /**
+     * Sets whether the bullets ignore invulnerability frame (default no), used when making the item for registering.
+     */
+    public GunItem ignoreInvulnerability(boolean ignoreInvulnerability) {
+        this.ignoreInvulnerability = ignoreInvulnerability;
+        return this;
+    }
+
+    /**
+     * Sets the firing sound, used when making the item for registering.
+     */
+    public GunItem fireSound(Supplier<SoundEvent> fireSound) {
+        this.fireSound = fireSound;
+        return this;
     }
 }

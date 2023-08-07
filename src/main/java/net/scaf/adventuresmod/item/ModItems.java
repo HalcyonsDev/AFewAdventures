@@ -12,6 +12,8 @@ import net.scaf.adventuresmod.food.ModFoods;
 import net.scaf.adventuresmod.item.custom.BulletItem;
 import net.scaf.adventuresmod.item.custom.DarkBladeItem;
 import net.scaf.adventuresmod.item.custom.GunItem;
+import net.scaf.adventuresmod.item.custom.ShotgunItem;
+import net.scaf.adventuresmod.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -54,7 +56,10 @@ public class ModItems {
             () -> new DarkBladeItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()));
 
     public static final RegistryObject<Item> FROSTMOURNE = ITEMS.register("frostmourne",
-            () -> new SwordItem(Tiers.DIAMOND, 3, -2.4f, new Item.Properties()));
+            () -> new SwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()));
+
+    public static final RegistryObject<Item> ANCIENT_IRON_SWORD = ITEMS.register("ancient_iron_sword",
+            () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties()));
 
     public static final RegistryObject<Item> ANCIENT_RUNE = ITEMS.register("ancient_rune",
             () -> new Item(new Item.Properties()));
@@ -76,6 +81,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> BEAUTY = ITEMS.register("beauty",
             () -> new GunItem(new Item.Properties().durability(513), 0, 1, 16, 1.5));
+
+    public static final RegistryObject<Item> CLUSTER = ITEMS.register("cluster",
+            () -> new GunItem(new Item.Properties().durability(513), 0, 1, 16, 1.5));
+
+    public static final RegistryObject<Item> PULSE_SHOTGUN = ITEMS.register("pulse_shotgun",
+            () -> new ShotgunItem(new Item.Properties().durability(2076), 0, 0.45, 16, 6,  5).ignoreInvulnerability(true).fireSound(ModSounds.shotgun));
+
+    public static final RegistryObject<Item> HOLY_FATHER = ITEMS.register("holy_father",
+            () -> new ShotgunItem(new Item.Properties().durability(2076), 0, 0.45, 16, 6,  3).ignoreInvulnerability(true).fireSound(ModSounds.shotgun));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

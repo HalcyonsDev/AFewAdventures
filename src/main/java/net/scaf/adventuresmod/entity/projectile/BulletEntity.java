@@ -1,4 +1,4 @@
-package net.scaf.adventuresmod.entity.custom;
+package net.scaf.adventuresmod.entity.projectile;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.protocol.Packet;

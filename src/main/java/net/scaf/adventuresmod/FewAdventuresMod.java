@@ -87,16 +87,22 @@ public class FewAdventuresMod {
             event.accept(ModItems.EVE);
             event.accept(ModItems.DARK_BLADE);
             event.accept(ModItems.FROSTMOURNE);
+            event.accept(ModItems.ANCIENT_IRON_SWORD);
 
             event.accept(ModItems.KNIFE);
             event.accept(ModItems.SUNRISE);
         }
 
-        if (event.getTab() == ModCreativeModeTabs.ADVENTURES_WEAPONS_TAB) {
+        if (event.getTab() == ModCreativeModeTabs.ADVENTURES_GUNS_TAB) {
             event.accept(ModItems.SIMPLE_BULLET);
+
             event.accept(ModItems.RIFLE);
             event.accept(ModItems.UGLINESS);
             event.accept(ModItems.BEAUTY);
+            event.accept(ModItems.CLUSTER);
+
+            event.accept(ModItems.PULSE_SHOTGUN);
+            event.accept(ModItems.HOLY_FATHER);
         }
 
     }

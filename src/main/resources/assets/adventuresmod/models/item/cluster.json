@@ -1,0 +1,106 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "cluster",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "adventuresmod:item/cluster",
+		"particle": "adventuresmod:item/cluster"
+	},
+	"elements": [
+		{
+			"from": [7, -1, 6],
+			"to": [9, 5, 9],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 6.5, 8.5]},
+			"faces": {
+				"north": {"uv": [2, 9.25, 2.5, 10.75], "texture": "#0"},
+				"east": {"uv": [0.5, 9.25, 1.25, 10.75], "texture": "#0"},
+				"south": {"uv": [2.5, 9.25, 3, 10.75], "texture": "#0"},
+				"west": {"uv": [1.25, 9.25, 2, 10.75], "texture": "#0"},
+				"up": {"uv": [3.5, 10, 3, 9.25], "texture": "#0"},
+				"down": {"uv": [4, 9.25, 3.5, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5, 0],
+			"to": [9, 8, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 6.5, 8.5]},
+			"faces": {
+				"north": {"uv": [4, 9.25, 4.5, 10], "texture": "#0"},
+				"east": {"uv": [0, 8.5, 2.5, 9.25], "texture": "#0"},
+				"south": {"uv": [4.5, 9.25, 5, 10], "texture": "#0"},
+				"west": {"uv": [2.5, 8.5, 5, 9.25], "texture": "#0"},
+				"up": {"uv": [5.5, 11, 5, 8.5], "texture": "#0"},
+				"down": {"uv": [0.5, 9.25, 0, 11.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 6.5, -9],
+			"to": [16, 6.5, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 6.5, 6.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.25, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 4.75, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4.25, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 4.75, 0], "texture": "#0"},
+				"up": {"uv": [5.75, 4.75, 9.75, 0], "texture": "#0"},
+				"down": {"uv": [5.75, 0, 9.75, 4.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, -2, -9],
+			"to": [8, 15, 13],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 6.5, 6.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4.25], "texture": "#0"},
+				"east": {"uv": [0, 0, 5.5, 4.25], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 4.25], "texture": "#0"},
+				"west": {"uv": [5.5, 0, 0, 4.25], "texture": "#0"},
+				"up": {"uv": [0, 5.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 5.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [4.95, 5.84, 0.37],
+			"translation": [2, 1.75, -0.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [4.95, 5.84, 0.37],
+			"translation": [2, 1.75, -0.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [114.75, 56.25, -90],
+			"translation": [5, 0, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-7, 0, -1]
+		}
+	},
+	"groups": [
+		{
+			"name": "gun",
+			"origin": [8, 6.5, 6.5],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

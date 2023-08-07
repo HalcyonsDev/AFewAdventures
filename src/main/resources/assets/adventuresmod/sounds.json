@@ -5,5 +5,11 @@
     "sounds": [
       "adventuresmod:gun1"
     ]
+  },
+
+  "item.shotgun.shoot": {
+    "category": "players",
+    "subtitle": "subtitles.adventuresmod.item.shotgun.shoot",
+    "sounds": [ "adventuresmod:shotgun" ]
   }
 }

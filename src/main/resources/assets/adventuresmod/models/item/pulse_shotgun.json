@@ -1,0 +1,168 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "pulse_shotgun",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "adventuresmod:item/pulse_shotgun"
+	},
+	"elements": [
+		{
+			"from": [6, 7, 8],
+			"to": [10, 15, 21],
+			"faces": {
+				"north": {"uv": [9.75, 0.75, 10.75, 2.75], "texture": "#1"},
+				"east": {"uv": [0, 5.5, 3.25, 7.5], "texture": "#1"},
+				"south": {"uv": [9.75, 7.5, 10.75, 9.5], "texture": "#1"},
+				"west": {"uv": [3.25, 5.5, 6.5, 7.5], "texture": "#1"},
+				"up": {"uv": [2.25, 10.75, 1.25, 7.5], "texture": "#1"},
+				"down": {"uv": [3.25, 7.5, 2.25, 10.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 7, -5],
+			"to": [10, 10, 6],
+			"faces": {
+				"north": {"uv": [10.5, 6.5, 11.5, 7.25], "texture": "#1"},
+				"east": {"uv": [9.5, 4.75, 12.25, 5.5], "texture": "#1"},
+				"south": {"uv": [0.75, 10.75, 1.75, 11.5], "texture": "#1"},
+				"west": {"uv": [9.75, 0, 12.5, 0.75], "texture": "#1"},
+				"up": {"uv": [8.5, 5.5, 7.5, 2.75], "texture": "#1"},
+				"down": {"uv": [4.25, 7.5, 3.25, 10.25], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 11, -6],
+			"to": [10, 15, 5],
+			"faces": {
+				"north": {"uv": [3.25, 10.25, 4.25, 11.25], "texture": "#1"},
+				"east": {"uv": [4.25, 8, 7, 9], "texture": "#1"},
+				"south": {"uv": [10.5, 5.5, 11.5, 6.5], "texture": "#1"},
+				"west": {"uv": [7, 8, 9.75, 9], "texture": "#1"},
+				"up": {"uv": [9.5, 5.5, 8.5, 2.75], "texture": "#1"},
+				"down": {"uv": [9.75, 0, 8.75, 2.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.5, 6, -1],
+			"to": [10.5, 11, 10],
+			"faces": {
+				"north": {"uv": [9.75, 9.5, 11, 10.75], "texture": "#1"},
+				"east": {"uv": [6.5, 5.5, 9.25, 6.75], "texture": "#1"},
+				"south": {"uv": [4.25, 10, 5.5, 11.25], "texture": "#1"},
+				"west": {"uv": [6.5, 6.75, 9.25, 8], "texture": "#1"},
+				"up": {"uv": [1.25, 10.25, 0, 7.5], "texture": "#1"},
+				"down": {"uv": [8.75, 0, 7.5, 2.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.5, 0, 14],
+			"to": [9.5, 8, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 15.5]},
+			"faces": {
+				"north": {"uv": [5.5, 10, 6.25, 12], "texture": "#1"},
+				"east": {"uv": [6.25, 10, 7, 12], "texture": "#1"},
+				"south": {"uv": [7, 10, 7.75, 12], "texture": "#1"},
+				"west": {"uv": [7.75, 10, 8.5, 12], "texture": "#1"},
+				"up": {"uv": [2.5, 11.5, 1.75, 10.75], "texture": "#1"},
+				"down": {"uv": [11.5, 2.25, 10.75, 3], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 11, 5],
+			"to": [9, 15, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.75, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.75, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 0.5, 0.75], "texture": "#1"},
+				"down": {"uv": [0, 0, 0.5, 0.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 3, -5],
+			"to": [8, 7, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 1], "texture": "#1"},
+				"east": {"uv": [4.25, 9, 7, 10], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 1], "texture": "#1"},
+				"west": {"uv": [7, 9, 4.25, 10], "texture": "#1"},
+				"up": {"uv": [0, 2.75, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 2.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 8, -5],
+			"to": [8, 19, 25],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 2.75], "texture": "#1"},
+				"east": {"uv": [0, 12, 7.5, 14.75], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 2.75], "texture": "#1"},
+				"west": {"uv": [7.5, 12, 0, 14.75], "texture": "#1"},
+				"up": {"uv": [0, 7.5, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 7.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, -4.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, -4.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [4.95, 5.84, 0.37],
+			"translation": [-1.5, -1.25, -5.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [4.95, 5.84, 0.37],
+			"translation": [-1.5, -1.25, -5.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [114.75, 56.25, -90],
+			"translation": [-0.5, 0, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 3.75, -10]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, -1]
+		}
+	},
+	"groups": [
+		{
+			"name": "pulse shotgun",
+			"origin": [8, 4, 15.5],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				{
+					"name": "group",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [6, 7]
+				}
+			]
+		}
+	]
+}

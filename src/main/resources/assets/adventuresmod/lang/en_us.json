@@ -19,6 +19,7 @@
   "item.adventuresmod.eve": "Eve",
   "item.adventuresmod.dark_blade": "Dark Blade",
   "item.adventuresmod.frostmourne": "Frostmourne",
+  "item.adventuresmod.ancient_iron_sword": "Ancient Iron Sword",
 
   "item.adventuresmod.knife": "Knife",
   "item.adventuresmod.sunrise": "Sunrise",
@@ -28,6 +29,11 @@
   "item.adventuresmod.rifle": "Rifle",
   "item.adventuresmod.ugliness": "Ugliness",
   "item.adventuresmod.beauty": "Beauty",
+  "item.adventuresmod.pulse_shotgun": "Pulse Shotgun",
+  "item.adventuresmod.holy_father": "Holy Father",
+  "item.adventuresmod.cluster": "Cluster",
+
+  "item.adventuresmod.temple_guard_spawn_egg": "Temple Guard Spawn Egg",
 
   "block.adventuresmod.ancient_temple_bricks": "Ancient Temple Bricks",
   "block.adventuresmod.ancient_temple_stone": "Ancient Temple Stone",
@@ -40,12 +46,18 @@
 
   "effect.adventuresmod.stun": "Stun",
 
-  "tooltip.adventuresmod.shift": "§7Hold §fSHIFT§7 for stats§r",
+  "entity.adventuresmod.bullet": "Bullet",
 
+  "entity.adventuresmod.temple_guard": "Temple Guard",
+
+  "tooltip.adventuresmod.shift": "§7Hold §fSHIFT§7 for stats§r",
   "tooltip.adventuresmod.bullet.damage": "%d damage",
   "tooltip.adventuresmod.gun.firerate": "§2Fire delay: §f%d§7 (§f%d§7 RPM)§r",
   "tooltip.adventuresmod.gun.accuracy": "§2Accuracy: §f%s§r",
   "tooltip.adventuresmod.gun.accuracy.perfect": "§2Accuracy: §Perfect§r",
+
+  "subtitles.adventuresmod.item.gun.shoot": "Gun fired",
+  "subtitles.adventuresmod.item.shotgun.shoot": "Shotgun fired",
 
   "creativemodetab.adventures_items_tab": "Few Adventures Items Tab",
   "creativemodetab.adventures_swords_tab": "Few Adventures Swords Tab",
