@@ -1,4 +1,4 @@
-package net.scaf.adventuresmod.item.custom;
+package net.scaf.adventuresmod.item.gun;
 
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;

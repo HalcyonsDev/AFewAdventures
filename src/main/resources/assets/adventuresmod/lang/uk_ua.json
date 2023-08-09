@@ -1,0 +1,72 @@
+{
+  "item.adventuresmod.green_refracting_crystal": "Зелений заломлюючий кристал",
+  "item.adventuresmod.sea_amulet": "Морський амулет",
+  "item.adventuresmod.blood_scroll": "Сувій крові",
+  "item.adventuresmod.aquarium_ring": "Аква-кільце",
+
+  "item.adventuresmod.ancient_key": "Стародавній ключ",
+  "item.adventuresmod.ancient_rune": "Стародавня руна",
+
+  "item.adventuresmod.astral_stone": "Астральний камінь",
+  "item.adventuresmod.astral_cluster": "Астральний шматок",
+  "item.adventuresmod.mythrile_ingot": "Міфріловий злиток",
+  "item.adventuresmod.mythrite_ingot": "Міфрітовий злиток",
+  "item.adventuresmod.magic_dust": "Чарівний пил",
+
+  "item.adventuresmod.flask_of_blaze_powder": "Фляга з палаючим порошком",
+
+  "item.adventuresmod.shard_of_mica": "Осколок слюди",
+
+  "item.adventuresmod.rejuvenating_fruit": "Омолоджуючі фрукти",
+
+  "item.adventuresmod.eve": "Єва",
+  "item.adventuresmod.dark_blade": "Темний клинок",
+  "item.adventuresmod.frostmourne": "Морозний ранок",
+
+  "item.adventuresmod.tinkerer_pickaxe": "Кайло Лудильника",
+  "item.adventuresmod.blaze_pickaxe": "Кайло полум'я",
+  "item.adventuresmod.mythrile_pickaxe": "Міфрілове кайло",
+  "item.adventuresmod.mythrile_axe": "Міфрілова сокира",
+  "item.adventuresmod.mythrile_shovel": "Міфрілова лопата",
+  "item.adventuresmod.mythrile_sword": "Міфриловий меч",
+  "item.adventuresmod.mythtire_pickaxe": "Міфрітове кайло",
+  "item.adventuresmod.mythrite_axe": "Міфрітова сокира",
+  "item.adventuresmod.mythrite_shovel": "Міфрітова лопата",
+  "item.adventuresmod.mythrite_sword": "Міфритовий меч",
+
+  "item.adventuresmod.knife": "Ніж",
+  "item.adventuresmod.sunrise": "Схід Сонця",
+
+  "item.adventuresmod.simple_bullet": "Проста куля",
+
+  "item.adventuresmod.rifle": "Гвинтівка",
+  "item.adventuresmod.ugliness": "Потворність",
+  "item.adventuresmod.beauty": "Краса",
+
+  "block.adventuresmod.mythrile_block": "Міфріловий блок",
+  "block.adventuresmod.mythrile_ore": "Міфрілова руда",
+
+  "block.adventuresmod.ancient_temple_bricks": "Стародавня храмова цегла",
+  "block.adventuresmod.ancient_temple_stone": "Стародавній храмовий камінь",
+  "block.adventuresmod.ancient_temple_keyhole": "Замкова щілина стародавнього храму",
+
+  "block.adventuresmod.crystal_lamp": "Кришталева лампа",
+
+  "block.adventuresmod.mica_block": "Слюдяний блок",
+  "block.adventuresmod.mica": "Слюда",
+
+  "effect.adventuresmod.stun": "Приголомшення",
+
+  "tooltip.adventuresmod.shift": "§7Утримуйте §fSHIFT§7 для опису§r",
+
+  "tooltip.adventuresmod.bullet.damage": "%d урону",
+  "tooltip.adventuresmod.gun.firerate": "§2Затримка пострiлу: §f%d§7 (§f%d§7 RPM)§r",
+  "tooltip.adventuresmod.gun.accuracy": "§2Точність: §f%s§r",
+  "tooltip.adventuresmod.gun.accuracy.perfect": "§2Точність: §Iдеально§r",
+
+  "creativemodetab.adventures_items_tab": "Few Adventures Items Tab",
+  "creativemodetab.adventures_swords_tab": "Few Adventures Swords Tab",
+  "creativemodetab.adventures_blocks_tab": "Few Adventures Blocks Tab",
+  "creativemodetab.adventures_weapons_tab": "Few Adventures Weapons Tab",
+  "creativemodetab.adventures_tools_tab": "Few Adventures Tools Tab"
+}

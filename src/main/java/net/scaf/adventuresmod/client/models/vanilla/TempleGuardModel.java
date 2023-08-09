@@ -15,8 +15,6 @@ import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.scaf.adventuresmod.FewAdventuresMod;
 import net.scaf.adventuresmod.entity.base.EntityAdventuresMonster;
 import net.scaf.adventuresmod.entity.vanilla.TempleGuardEntity;
@@ -74,6 +72,10 @@ public class TempleGuardModel<T extends EntityAdventuresMonster> extends EntityM
 
 	@Override
 	public void setupAnim(TempleGuardEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+		this.LeftArm.xRot = (float) (Math.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount);
+		this.RightArm.xRot = (float) (Math.cos(limbSwing * 0.6662F + (float) Math.PI) * 1.4F * limbSwingAmount);
 
+		this.RightLeg.xRot = (float) (Math.cos(limbSwing * 0.6662F) * limbSwingAmount);
+		this.LeftLeg.xRot = (float) (Math.cos(limbSwing * 0.6662F + Math.PI) * limbSwingAmount);
 	}
 }

@@ -15,7 +15,7 @@ import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.network.NetworkHooks;
 import net.scaf.adventuresmod.entity.ModEntities;
-import net.scaf.adventuresmod.item.custom.IBullet;
+import net.scaf.adventuresmod.item.gun.IBullet;
 
 public class BulletEntity extends Fireball {
     protected double damage = 1;

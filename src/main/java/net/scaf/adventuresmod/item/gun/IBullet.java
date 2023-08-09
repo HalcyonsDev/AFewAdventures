@@ -1,4 +1,4 @@
-package net.scaf.adventuresmod.item.custom;
+package net.scaf.adventuresmod.item.gun;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;

@@ -64,6 +64,8 @@ public class FewAdventuresMod {
 
             event.accept(ModItems.ASTRAL_STONE);
             event.accept(ModItems.ASTRAL_CLUSTER);
+            event.accept(ModItems.MAGIC_DUST);
+            event.accept(ModItems.MYTHRILE_CLUSTER);
 
             event.accept(ModItems.FLASK_OF_BLASE_POWDER);
 
@@ -72,10 +74,24 @@ public class FewAdventuresMod {
             event.accept(ModItems.REJUVENATING_FRUIT);
         }
 
+        if (event.getTab() == ModCreativeModeTabs.ADVENTURES_TOOLS_TAB) {
+            event.accept(ModItems.TINKERER_PICKAXE);
+            event.accept(ModItems.BLAZE_PICKAXE);
+            event.accept(ModItems.MYTHRITE_SHOVEL);
+            event.accept(ModItems.MYTHRILE_SHOVEL);
+            event.accept(ModItems.MYTHRITE_PICKAXE);
+            event.accept(ModItems.MYTHRILE_PICKAXE);
+            event.accept(ModItems.MYTHRITE_AXE);
+            event.accept(ModItems.MYTHRILE_AXE);
+        }
+
         if (event.getTab() == ModCreativeModeTabs.ADVENTURES_BLOCKS_TAB) {
             event.accept(ModBlocks.ANCIENT_TEMPLE_BRICKS);
             event.accept(ModBlocks.ANCIENT_TEMPLE_STONE);
             event.accept(ModBlocks.ANCIENT_TEMPLE_KEYHOLE);
+
+            event.accept(ModBlocks.MYTHRILE_BLOCK);
+            event.accept(ModBlocks.MYTHRILE_ORE);
 
             event.accept(ModBlocks.CRYSTAL_LAMP);
 
@@ -87,7 +103,9 @@ public class FewAdventuresMod {
             event.accept(ModItems.EVE);
             event.accept(ModItems.DARK_BLADE);
             event.accept(ModItems.FROSTMOURNE);
-            event.accept(ModItems.ANCIENT_IRON_SWORD);
+
+            event.accept(ModItems.MYTHRITE_SWORD);
+            event.accept(ModItems.MYTHRILE_SWORD);
 
             event.accept(ModItems.KNIFE);
             event.accept(ModItems.SUNRISE);
@@ -95,14 +113,9 @@ public class FewAdventuresMod {
 
         if (event.getTab() == ModCreativeModeTabs.ADVENTURES_GUNS_TAB) {
             event.accept(ModItems.SIMPLE_BULLET);
-
             event.accept(ModItems.RIFLE);
             event.accept(ModItems.UGLINESS);
             event.accept(ModItems.BEAUTY);
-            event.accept(ModItems.CLUSTER);
-
-            event.accept(ModItems.PULSE_SHOTGUN);
-            event.accept(ModItems.HOLY_FATHER);
         }
 
     }

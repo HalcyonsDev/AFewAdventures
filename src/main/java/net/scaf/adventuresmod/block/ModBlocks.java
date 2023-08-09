@@ -27,6 +27,12 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FewAdventuresMod.MOD_ID);
 
+    public static final RegistryObject<Block> MYTHRILE_BLOCK = registerBlock("mythrile_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(1.5F, 6.0F).isRedstoneConductor(ModBlocks::never)));
+
+    public static final RegistryObject<Block> MYTHRILE_ORE = registerBlock("mythrile_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1F, 4.0F).isRedstoneConductor(ModBlocks::never)));
+
     public static final RegistryObject<Block> ANCIENT_TEMPLE_BRICKS = registerBlock("ancient_temple_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.DECORATION).requiresCorrectToolForDrops().strength(1.5F, 6.0F).isRedstoneConductor(ModBlocks::never)));
 

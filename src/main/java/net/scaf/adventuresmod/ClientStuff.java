@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.scaf.adventuresmod.entity.ModEntities;
 import net.scaf.adventuresmod.item.ModItems;
-import net.scaf.adventuresmod.item.custom.BulletItem;
+import net.scaf.adventuresmod.item.gun.BulletItem;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = FewAdventuresMod.MOD_ID, value = Dist.CLIENT)
 public class ClientStuff {

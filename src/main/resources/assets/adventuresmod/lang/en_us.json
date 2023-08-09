@@ -9,6 +9,8 @@
 
   "item.adventuresmod.astral_stone": "Astral Stone",
   "item.adventuresmod.astral_cluster": "Astral Cluster",
+  "item.adventuresmod.magic_dust": "Magic Dust",
+  "item.adventuresmod.mythrile_cluster": "Mythrile_Cluster",
 
   "item.adventuresmod.flask_of_blaze_powder": "Flask of Blaze Powder",
 
@@ -19,7 +21,17 @@
   "item.adventuresmod.eve": "Eve",
   "item.adventuresmod.dark_blade": "Dark Blade",
   "item.adventuresmod.frostmourne": "Frostmourne",
-  "item.adventuresmod.ancient_iron_sword": "Ancient Iron Sword",
+
+  "item.adventuresmod.tinkerer_pickaxe": "Tinkerer Pickaxe",
+  "item.adventuresmod.blaze_pickaxe": "Blaze Pickaxe",
+  "item.adventuresmod.mythrile_pickaxe": "Mythrile Pickaxe",
+  "item.adventuresmod.mythrile_axe": "Mythrile Axe",
+  "item.adventuresmod.mythrile_shovel": "Mythrile Shovel",
+  "item.adventuresmod.mythrile_sword": "Mythrile Sword",
+  "item.adventuresmod.mythtire_pickaxe": "Mythrite Pickaxe",
+  "item.adventuresmod.mythrite_axe": "Mythrite Axe",
+  "item.adventuresmod.mythrite_shovel": "Mythrite Shovel",
+  "item.adventuresmod.mythrite_sword": "Mythrite Sword",
 
   "item.adventuresmod.knife": "Knife",
   "item.adventuresmod.sunrise": "Sunrise",
@@ -29,11 +41,9 @@
   "item.adventuresmod.rifle": "Rifle",
   "item.adventuresmod.ugliness": "Ugliness",
   "item.adventuresmod.beauty": "Beauty",
-  "item.adventuresmod.pulse_shotgun": "Pulse Shotgun",
-  "item.adventuresmod.holy_father": "Holy Father",
-  "item.adventuresmod.cluster": "Cluster",
 
-  "item.adventuresmod.temple_guard_spawn_egg": "Temple Guard Spawn Egg",
+  "block.adventuresmod.mythrile_block": "Mythrile Block",
+  "block.adventuresmod.mythrile_ore": "Mythrile Ore",
 
   "block.adventuresmod.ancient_temple_bricks": "Ancient Temple Bricks",
   "block.adventuresmod.ancient_temple_stone": "Ancient Temple Stone",
@@ -46,21 +56,22 @@
 
   "effect.adventuresmod.stun": "Stun",
 
-  "entity.adventuresmod.bullet": "Bullet",
-
+  "entity.adventuresmod.bullet": "Bullet Entity",
   "entity.adventuresmod.temple_guard": "Temple Guard",
 
+  "item.adventuresmod.temple_guard_spawn_egg": "Temple Guard Spawn Egg",
+
   "tooltip.adventuresmod.shift": "§7Hold §fSHIFT§7 for stats§r",
+
   "tooltip.adventuresmod.bullet.damage": "%d damage",
   "tooltip.adventuresmod.gun.firerate": "§2Fire delay: §f%d§7 (§f%d§7 RPM)§r",
   "tooltip.adventuresmod.gun.accuracy": "§2Accuracy: §f%s§r",
   "tooltip.adventuresmod.gun.accuracy.perfect": "§2Accuracy: §Perfect§r",
 
-  "subtitles.adventuresmod.item.gun.shoot": "Gun fired",
-  "subtitles.adventuresmod.item.shotgun.shoot": "Shotgun fired",
-
   "creativemodetab.adventures_items_tab": "Few Adventures Items Tab",
   "creativemodetab.adventures_swords_tab": "Few Adventures Swords Tab",
   "creativemodetab.adventures_blocks_tab": "Few Adventures Blocks Tab",
-  "creativemodetab.adventures_weapons_tab": "Few Adventures Weapons Tab"
+  "creativemodetab.adventures_guns_tab": "Few Adventures Guns Tab",
+  "creativemodetab.adventures_weapons_tab": "Few Adventures Weapons Tab",
+  "creativemodetab.adventures_tools_tab": "Few Adventures Tools Tab"
 }

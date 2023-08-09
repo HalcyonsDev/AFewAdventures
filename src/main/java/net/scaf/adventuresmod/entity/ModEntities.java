@@ -27,6 +27,8 @@ import net.scaf.adventuresmod.entity.vanilla.TempleGuardEntity;
 import net.scaf.adventuresmod.enums.EntityStats;
 import net.scaf.adventuresmod.item.ModItems;
 
+import static net.scaf.adventuresmod.util.ClientUtils.layerHumanoid;
+
 @Mod.EventBusSubscriber(modid = FewAdventuresMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEntities {
 
@@ -64,7 +66,7 @@ public class ModEntities {
     }
 
     private static <T extends Mob> void registerMobAttributes(EntityAttributeCreationEvent event, RegistryObject<EntityType<T>> entity, EntityStats stats) {
-        event.put(entity.get(), Mob.createMobAttributes().add(Attributes.MAX_HEALTH, stats.getHealth()).add(Attributes.ATTACK_DAMAGE, stats.getAttackDamage()).add(Attributes.MOVEMENT_SPEED, stats.getMovementSpeed()).add(Attributes.FOLLOW_RANGE, stats.getFollowRange()).add(Attributes.FLYING_SPEED, stats.getMovementSpeed()).build());
+        event.put(entity.get(), Mob.createMobAttributes().add(Attributes.MAX_HEALTH, stats.getHealth()).add(Attributes.ATTACK_DAMAGE, stats.getAttackDamage()).add(Attributes.MOVEMENT_SPEED, stats.getMovementSpeed()).add(Attributes.FOLLOW_RANGE, stats.getFollowRange()).build());
     }
 
     @OnlyIn(Dist.CLIENT)

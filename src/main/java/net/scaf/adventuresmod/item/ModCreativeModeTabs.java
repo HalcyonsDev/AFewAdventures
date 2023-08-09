@@ -15,6 +15,8 @@ public class ModCreativeModeTabs {
     public static CreativeModeTab ADVENTURES_ITEMS_TAB;
     public static CreativeModeTab ADVENTURES_BLOCKS_TAB;
     public static CreativeModeTab ADVENTURES_SWORDS_TAB;
+    public static CreativeModeTab ADVENTURES_WEAPONS_TAB;
+    public static CreativeModeTab ADVENTURES_TOOLS_TAB;
     public static CreativeModeTab ADVENTURES_GUNS_TAB;
 
     @SubscribeEvent
@@ -32,8 +34,16 @@ public class ModCreativeModeTabs {
                 builder -> builder.icon(() -> new ItemStack(ModItems.GREEN_REFRACTING_CRYSTAL.get()))
                         .title(Component.translatable("creativemodetab.adventures_items_tab")));
 
+        ADVENTURES_WEAPONS_TAB = event.registerCreativeModeTab(new ResourceLocation(FewAdventuresMod.MOD_ID, "adventures_weapons_tab"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.MYTHRILE_SWORD.get()))
+                        .title(Component.translatable("creativemodetab.adventures_weapons_tab")));
+
+        ADVENTURES_TOOLS_TAB = event.registerCreativeModeTab(new ResourceLocation(FewAdventuresMod.MOD_ID, "adventures_tools_tab"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.BLAZE_PICKAXE.get()))
+                        .title(Component.translatable("creativemodetab.adventures_tools_tab")));
+
         ADVENTURES_GUNS_TAB = event.registerCreativeModeTab(new ResourceLocation(FewAdventuresMod.MOD_ID, "adventures_guns_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.RIFLE.get()))
+                builder -> builder.icon(() -> new ItemStack(ModItems.BEAUTY.get()))
                         .title(Component.translatable("creativemodetab.adventures_guns_tab")));
     }
 }
